@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <style>
+      .f { font-family: 'Courier New', Courier, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer shell -->
+  <rect x="0" y="0" width="800" height="220" rx="10" fill="#080e08"/>
+  <!-- Screen bezel -->
+  <rect x="6" y="6" width="788" height="208" rx="7" fill="#0b130b" stroke="#162416" stroke-width="1"/>
+  <!-- Screen -->
+  <rect x="12" y="12" width="776" height="196" rx="4" fill="#050c05"/>
+
+  <!-- Scanlines static (every 4px) -->
+  <rect x="12" y="16" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="20" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="24" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="28" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="32" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="36" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="40" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="44" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="48" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="52" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="56" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="60" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="64" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="68" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="72" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="76" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="80" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="84" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="88" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="92" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="96" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="100" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="104" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="108" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="112" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="116" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="120" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="124" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="128" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="132" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="136" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="140" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="144" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="148" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="152" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="156" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="160" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="164" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="168" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="172" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="176" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="180" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="184" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="188" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="192" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="196" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+  <rect x="12" y="200" width="776" height="1" fill="#39ff14" opacity="0.018"/>
+
+  <!-- Sweep line SMIL -->
+  <rect x="12" y="12" width="776" height="30" fill="#39ff14" opacity="0.06">
+    <animate attributeName="y" from="-30" to="220" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.06;0.06;0" keyTimes="0;0.05;0.95;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- LEFT COLUMN -->
+  <!-- ═══════════════════════════════════ -->
+
+  <!-- ROBCO header (fade in) -->
+  <text x="22" y="31" class="f" font-size="9" fill="#1a6010" letter-spacing="2">
+    ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.2s" fill="freeze"/>
+  </text>
+  <line x1="22" y1="36" x2="398" y2="36" stroke="#1a6010" stroke-width="0.5">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze"/>
+  </line>
+
+  <!-- Big username with pulse -->
+  <text x="22" y="84" class="f" font-size="48" fill="#39ff14" letter-spacing="5" font-weight="bold">
+    txgrx
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Tagline -->
+  <text x="23" y="99" class="f" font-size="10" fill="#1a7010" letter-spacing="1">
+    cs · security · data · always learning
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.3s" fill="freeze"/>
+  </text>
+
+  <!-- Divider -->
+  <line x1="22" y1="107" x2="398" y2="107" stroke="#1a6010" stroke-width="0.5" stroke-dasharray="3,3">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.3s" fill="freeze"/>
+  </line>
+
+  <!-- About lines -->
+  <text x="22" y="121" class="f" font-size="10" fill="#2aaa10">
+    &gt; CS degree + Cybersecurity diploma
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.7s" fill="freeze"/>
+  </text>
+  <text x="22" y="134" class="f" font-size="10" fill="#1a7010">
+    &gt; breaks things on purpose to understand them
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.1s" fill="freeze"/>
+  </text>
+  <text x="22" y="147" class="f" font-size="10" fill="#1a7010">
+    &gt; learning something new every single day
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
+  </text>
+
+  <!-- Divider -->
+  <line x1="22" y1="155" x2="398" y2="155" stroke="#1a6010" stroke-width="0.5" stroke-dasharray="3,3">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
+  </line>
+
+  <!-- Stack badges -->
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.9s" fill="freeze"/>
+    <rect x="22" y="161" width="44" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="44" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">Python</text>
+    <rect x="70" y="161" width="28" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="84" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">C++</text>
+    <rect x="102" y="161" width="52" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="128" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">Kali Linux</text>
+    <rect x="158" y="161" width="52" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="184" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">Wireshark</text>
+    <rect x="214" y="161" width="30" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="229" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">Bash</text>
+    <rect x="248" y="161" width="26" height="14" rx="1" fill="#050c05" stroke="#39ff14" stroke-width="0.7"/>
+    <text x="261" y="172" class="f" font-size="9" fill="#39ff14" text-anchor="middle">Git</text>
+    <rect x="278" y="161" width="36" height="14" rx="1" fill="#050c05" stroke="#1a6010" stroke-width="0.7" stroke-dasharray="2,2"/>
+    <text x="296" y="172" class="f" font-size="9" fill="#1a7010" text-anchor="middle">
+      ...
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Footer left -->
+  <text x="22" y="198" class="f" font-size="8.5" fill="#0f5008">
+    github.com/txgrx · OSINT-resistant by design
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.3s" fill="freeze"/>
+  </text>
+
+  <!-- Cursor -->
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/>
+    <text x="22" y="210" class="f" font-size="10" fill="#2aaa10">&gt;</text>
+    <rect x="32" y="200" width="7" height="11" fill="#39ff14">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- VERTICAL DIVIDER -->
+  <!-- ═══════════════════════════════════ -->
+  <line x1="410" y1="20" x2="410" y2="200" stroke="#1a6010" stroke-width="0.5">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.3s" fill="freeze"/>
+  </line>
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- RIGHT COLUMN -->
+  <!-- ═══════════════════════════════════ -->
+
+  <!-- Section label -->
+  <text x="424" y="31" class="f" font-size="9" fill="#cc8800" letter-spacing="2">
+    [ INTERESTS ]
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.7s" fill="freeze"/>
+  </text>
+  <line x1="424" y1="36" x2="784" y2="36" stroke="#664400" stroke-width="0.5">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.7s" fill="freeze"/>
+  </line>
+
+  <!-- Interest 1 -->
+  <text x="424" y="52" class="f" font-size="11" fill="#39ff14">
+    &#x2197;
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.1s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="2.3s" repeatCount="indefinite"/>
+  </text>
+  <text x="440" y="52" class="f" font-size="10" fill="#2aaa10">
+    Cybersecurity
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.1s" fill="freeze"/>
+  </text>
+  <text x="542" y="52" class="f" font-size="10" fill="#1a6010">
+    — offensive &amp; defensive
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.1s" fill="freeze"/>
+  </text>
+
+  <!-- Interest 2 -->
+  <text x="424" y="67" class="f" font-size="11" fill="#39ff14">
+    &#x2197;
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="2.9s" repeatCount="indefinite"/>
+  </text>
+  <text x="440" y="67" class="f" font-size="10" fill="#2aaa10">
+    Data Science &amp; Machine Learning
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.5s" fill="freeze"/>
+  </text>
+
+  <!-- Interest 3 -->
+  <text x="424" y="82" class="f" font-size="11" fill="#39ff14">
+    &#x2197;
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.9s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="3.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="440" y="82" class="f" font-size="10" fill="#2aaa10">
+    Artificial Intelligence
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.9s" fill="freeze"/>
+  </text>
+
+  <!-- Interest 4 -->
+  <text x="424" y="97" class="f" font-size="11" fill="#39ff14">
+    &#x2197;
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="3.9s" repeatCount="indefinite"/>
+  </text>
+  <text x="440" y="97" class="f" font-size="10" fill="#2aaa10">
+    Systems programming &amp; low-level thinking
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.3s" fill="freeze"/>
+  </text>
+
+  <!-- Divider -->
+  <line x1="424" y1="106" x2="784" y2="106" stroke="#1a6010" stroke-width="0.5" stroke-dasharray="3,3">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.3s" fill="freeze"/>
+  </line>
+
+  <!-- Quote block accent -->
+  <rect x="424" y="113" width="2" height="58" fill="#39ff14" opacity="0.45">
+    <animate attributeName="opacity" values="0;0.45" dur="0.2s" begin="3.7s" fill="freeze"/>
+  </rect>
+
+  <!-- Quote lines -->
+  <text x="432" y="126" class="f" font-size="9" fill="#1a7010" font-style="italic">
+    "There are only two hard things in Computer Science:
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.7s" fill="freeze"/>
+  </text>
+  <text x="432" y="138" class="f" font-size="9" fill="#1a7010" font-style="italic">
+    cache invalidation, naming things,
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.1s" fill="freeze"/>
+  </text>
+  <text x="432" y="150" class="f" font-size="9" fill="#1a7010" font-style="italic">
+    and off-by-one errors."
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.1s" fill="freeze"/>
+  </text>
+  <text x="432" y="163" class="f" font-size="9" fill="#cc8800">
+    — a truth universally acknowledged
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+  </text>
+
+  <!-- Status bar -->
+  <line x1="424" y1="177" x2="784" y2="177" stroke="#1a6010" stroke-width="0.5">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+  </line>
+  <text x="424" y="190" class="f" font-size="9" fill="#0f5008" letter-spacing="1">
+    STATUS: ACTIVE
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+  </text>
+  <text x="534" y="190" class="f" font-size="9" fill="#0f5008">
+    |
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+  </text>
+  <text x="544" y="190" class="f" font-size="9" fill="#0f5008" letter-spacing="1">
+    OSINT-RESISTANT: ON
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+  </text>
+  <text x="424" y="202" class="f" font-size="9" fill="#0a3806" letter-spacing="1">
+    CLEARANCE: GRANTED
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.9s" fill="freeze"/>
+  </text>
+  <text x="534" y="202" class="f" font-size="9" fill="#0a3806">
+    |
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.9s" fill="freeze"/>
+  </text>
+  <text x="544" y="202" class="f" font-size="9" fill="#0a3806" letter-spacing="1">
+    VIEWS: MINE
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.9s" fill="freeze"/>
+  </text>
+
+  <!-- CRT vignette -->
+  <rect x="12" y="12" width="776" height="196" rx="4" fill="none" stroke="#000" stroke-width="6" opacity="0.4"/>
+
+  <!-- Corner markers -->
+  <text x="14" y="23" class="f" font-size="8" fill="#0f3808" opacity="0.5">+</text>
+  <text x="780" y="23" class="f" font-size="8" fill="#0f3808" opacity="0.5" text-anchor="end">+</text>
+  <text x="14" y="209" class="f" font-size="8" fill="#0f3808" opacity="0.5">+</text>
+  <text x="780" y="209" class="f" font-size="8" fill="#0f3808" opacity="0.5" text-anchor="end">+</text>
+
+</svg>
